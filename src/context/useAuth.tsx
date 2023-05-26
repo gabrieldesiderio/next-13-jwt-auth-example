@@ -41,9 +41,9 @@ export function AuthProvider({children}: {children: ReactNode} ) {
       // make a request api to get user data
 
       setUser({
-        name: 'Gabriel Desidério',
-        email: 'gabrieldesd7@gmail.com',
-        avatarUrl: 'https://github.com/gabrieldesiderio.png'
+        name: 'Username',
+        email: 'user@gmail.com',
+        avatarUrl: 'https://github.com/useravatar.png'
       })
     }
   }, [])
@@ -58,9 +58,9 @@ export function AuthProvider({children}: {children: ReactNode} ) {
     api.defaults.headers['Authorization'] = `Bearer ${data.token}`
 
     setUser({
-      name: 'Gabriel Desidério',
-      email: 'gabrieldesd7@gmail.com',
-      avatarUrl: 'https://github.com/gabrieldesiderio.png'
+      name: 'Username',
+      email: 'user@gmail.com',
+      avatarUrl: 'https://github.com/useravatar.png'
     })
 
     router.push('/dashboard')
