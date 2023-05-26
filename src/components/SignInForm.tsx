@@ -8,7 +8,7 @@ export function SignInForm() {
 
   async function handleSignIn() {
     await signIn({
-      email: 'gabrieldesd7@gmail.com',
+      email: 'user@gmail.com',
       password: '123456'
     })
   }
